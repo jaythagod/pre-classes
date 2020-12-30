@@ -1,0 +1,39 @@
+nav {
+    position: absolute;
+    width: 1440px;
+    height: 115px;
+    padding: 1em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 135px;
+    left: 0px;
+    top: 2265px;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    position: relative;
+    width: 1440px;
+    height: 2400px;
+    background: #FFFFFF;
+}
+
+nav > ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+#logo {
+    float: left;
+}
