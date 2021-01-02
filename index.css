@@ -25,6 +25,8 @@ footer {
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
     background: #FFFFFF;
 }
 
@@ -128,10 +130,66 @@ ul#faicons li {
 }
 
 header{
+    display: flex;
     position: absolute;
     width: 100%;
     height: 874px;
     left: 0px;
     top: -6px;
     background: rgba(0, 0, 0, 0.54);
+}
+
+.card{
+    display: inline-flex;
+    position: relative;
+    width: 347px;
+    height: 505px;
+    left: 67px;
+    top: 1268px;
+    order: 3;
+    border: 3px solid #000000;
+    align-items: center;
+    padding-left: 50px;
+    margin-right: 80px;
+}
+
+.mid-section{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    justify-content: space-between;
+}
+
+#card-button{
+    position: absolute;
+    bottom: 0;
+    width: 267px;
+    height: 74px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    margin: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card-title{
+    position: absolute;
+    width: 241px;
+    height: 49px;
+    top: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    vertical-align: middle;
+
+    color: #000000;
 }
