@@ -58,6 +58,7 @@ p{
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
+    margin-top: 30px;
 }
 
 .btn-section:hover{
@@ -93,15 +94,135 @@ p{
 }
 
 #showcase-text{
-    height: 90px;
+    
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
     margin: 0 auto;
-    
-    border: 1px solid black;
 }
 
 #showcase-grp-btns{
     margin: 2em 0;
+}
+
+.card{
+    width: 20em;
+    height: 504px;
+    padding: 1em;
+
+    border: 3px solid #000000;
+}
+
+.card h4{
+    height: 49px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 297px;
+    height: 156px;
+}
+
+
+.cardslist-wrap{
+    text-align: center;
+    margin: 150px;
+    justify-content: stretch;
+}
+
+/* footer */
+
+#main-footer{
+    padding: 2em;
+    background: black;
+    color: white;
+    min-height: 115px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.soc-med-icons{
+    text-align: left;
+}
+
+.icn{
+    margin: 0 1em;
+}
+
+.copyright{
+    text-align: right;
+}
+
+.logo{
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 2em 2em;
+    color: #FFFFFF;
+}
+
+.menu-items{
+    text-align: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 2em 2em;
+    color: #FFFFFF;
+}
+
+.menu{
+    margin: 0 1em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav {
+    height: 115px;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.content-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    margin: 2em 0;
+}
+
+
+@media(min-width: 700px){
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .cardslist-wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .content-wrap{
+        grid-column: 2/4;
+    }
+
+    #main-footer div{
+        grid-column: span 2;
+    }
+
+    #main-nav div{
+        grid-column: span 2;
+    }
 }
