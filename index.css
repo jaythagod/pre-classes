@@ -252,4 +252,11 @@ nav {
     #top-heading{
         padding-top: 2em;
     }
+
+    .soc-med-icons{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
 }
